@@ -1,3 +1,1 @@
-variable token {
-  type        = string
-}
+
