@@ -1,6 +1,6 @@
 # Configure the GitHub Provider
 provider "github" {
-  token = ${{ secrets.TOKEN }}
+  token = var.token
 }
 
 resource "github_repository" "repo" {
